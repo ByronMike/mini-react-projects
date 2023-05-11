@@ -15,15 +15,13 @@ function Home() {
 
   console.log(dataPokedex);
 
-  const allPokemon = dataPokedex.map((data, i) => (
-    <Card key={i} data={data} />
-  ));
+  const allPokemon = dataPokedex.map((data, i) => <Card key={i} data={data} />);
 
   return (
-    <>
+    <div className={styles.main}>
       <div className={styles.title}>Pokedex</div>
-      {allPokemon}
-    </>
+      <div className={styles.cardsArray}>{allPokemon}</div>
+    </div>
   );
 }
 

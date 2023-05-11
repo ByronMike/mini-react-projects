@@ -1,6 +1,7 @@
 .main {
     height: 150px;
     width: 100px;
+    border: solid 1px black;
 }
 
 .title {

@@ -20,3 +20,10 @@
 .title a:hover, .title a:focus, .title a:active {
   text-decoration: underline;
 }
+
+.cardsArray {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
