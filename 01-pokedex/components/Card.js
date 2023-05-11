@@ -1,8 +1,10 @@
 import style from '../styles/Cards.module.css';
-function Card() {
 
+
+function Card( {data}) {
+    
     return (
-        <div className={style.main}>test card</div>
+        <div className={style.main}>{data.name}</div>
     )
 }
 
