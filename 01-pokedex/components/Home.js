@@ -1,10 +1,12 @@
-import styles from '../styles/Home.module.css';
-import Card from './Card';
+import styles from "../styles/Home.module.css";
+import Card from "./Card";
 
 function Home() {
   return (
-    <div className={styles.title}>Pokedex</div>
-    <Card/>
+    <>
+      <div className={styles.title}>Pokedex</div>
+      <Card />
+    </>
   );
 }
 
