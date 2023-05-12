@@ -1,13 +1,27 @@
 .main {
+    /* custom styles */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* default styles */
     height: 150px;
     width: 100px;
     border: solid 1px black;
 }
 
 .title {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 2px;
 
 }
 
 .type {
-
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 2px;
+    font-size: 10px;
 }
