@@ -49,35 +49,14 @@ function Home() {
   return (
     <div className={styles.main}>
       <div
-        className={styles.header}
-        style={{
-          position: "relative",
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          height: "50px",
-          top: 0,
-        }}
-      >
+        className={styles.header}>
         <div className={styles.title}>Pokedex</div>
         <input className={styles.input} onChange={searchPokemon}></input>
       </div>
       <div
-        className={styles.cardsList}
-        style={{ display: "flex", flexWrap: "wrap", alignItems: "flex-start" }}
-      >
+        className={styles.cardsList}>
         <div
-          className={styles.cardsArray}
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            margin: "0 auto",
-            maxWidth: "1200px",
-            padding: "20px",
-            gap: "20px",
-            marginTop: "100px",
-          }}
-        >
+          className={styles.cardsArray}>
           {allPokemon}
         </div>
       </div>
