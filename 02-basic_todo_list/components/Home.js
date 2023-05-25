@@ -37,7 +37,7 @@ function Home() {
         <div className="integration">
           <input
             type="text"
-            onChange={(e) => setTodo(e.target.value)}
+            onChange={({target}) => setTodo(target.value)}
             value={todo}
             placeholder="my todo"
           ></input>
